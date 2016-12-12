@@ -38,6 +38,8 @@ public class Doubling_the_value {
     	 }
     	 System.out.println(b);
     	 test_case--;
+    	 size=0;
+    	 b=0;
      }
     	
 	}
