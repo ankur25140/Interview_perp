@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Count_one {
 //Given a binary array sorted in non-increasing order, count the number of 1’s in it.
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     Scanner in = new Scanner(System.in);
