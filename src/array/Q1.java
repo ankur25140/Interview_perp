@@ -10,6 +10,7 @@ public class Q1 {
       String A = in.nextLine();
       String B = in.nextLine();
       String result = "";
+      System.out.println("Output");
       permutation(A,B,result);
 	}
 
@@ -17,7 +18,7 @@ public class Q1 {
 		// TODO Auto-generated method stub
 		
 		if(a.length()==0&&b.length()==0)
-		{
+		{  
 			System.out.println(result);
 			return;
 		}

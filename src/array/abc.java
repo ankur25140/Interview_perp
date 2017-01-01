@@ -3,6 +3,9 @@ package array;
 public class abc {
 
 	 public static void main(String[] args) {
+
+		   System.out.println(		  Integer.bitCount(7));
+
 	  printAllInterleavings("ABCC", "XYZ", "");
 	 }
 
@@ -13,6 +16,7 @@ public class abc {
 	   System.out.println(str2);
 	   return;
 	  }
+
 	  
 	  //If string 2 is null then print string 1 and return
 	  if(str2 == null){
